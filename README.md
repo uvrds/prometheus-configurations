@@ -10,7 +10,11 @@ How to start
 --landscape kafka-prod
 
 env:
-
+TPL_PROM= prom.tpl
+RUNCHERURL= rancher.com
+RUNCHERUSER= token user
+RUNCHERTOKEN= rancher token
+VMURL= url VictoriaMetrics for prometheus remote write
 
 Also based on our environment by  template prom.ptl you can get configuration:
 
