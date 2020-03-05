@@ -17,7 +17,7 @@ RUNCHERTOKEN= rancher token
 VMURL= url VictoriaMetrics for prometheus remote write
 
 Also based on our environment by  template prom.ptl you can get configuration:
-
+```yaml
  ---
  kubeControllerManager:
    endpoints:
@@ -52,5 +52,5 @@ Also based on our environment by  template prom.ptl you can get configuration:
    ingress:
      hosts:
        - alertmanager.kafka.prod.example.com
-
+```
  
