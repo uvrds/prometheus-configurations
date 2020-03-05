@@ -2,7 +2,9 @@ package main
 
 import (
 	"flag"
-
+	"git.crptech.ru/prometheus-operator-configurations/pkg/help"
+	"git.crptech.ru/prometheus-operator-configurations/pkg/services"
+	"git.crptech.ru/prometheus-operator-configurations/pkg/structure"
 	"log"
 	"os"
 )

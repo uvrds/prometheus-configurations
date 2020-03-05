@@ -1,3 +1,3 @@
-module git.crptech.ru/prometheus-operator-configurations
+module github.com//prometheus-operator-configurations
 
 go 1.14
