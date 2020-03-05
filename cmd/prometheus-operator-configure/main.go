@@ -2,6 +2,9 @@ package main
 
 import (
 	"flag"
+	"github.com/pkg/help"
+	"github.com/pkg/services"
+	"github.com/pkg/structure"
 	"log"
 	"os"
 )

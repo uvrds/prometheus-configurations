@@ -2,6 +2,7 @@ package services
 
 import (
 	"encoding/json"
+	"github.com/pkg/structure"
 	"io/ioutil"
 	"log"
 	"net/http"
